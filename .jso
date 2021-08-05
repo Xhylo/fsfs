@@ -1,0 +1,314 @@
+{
+    "Panels": {
+        "plugins": "Spraudņi",
+        "themes": "Motīvs",
+        "customcss": "Pielāgojamais CSS"
+    },
+    "Collections": {
+        "settings": {
+            "name": "Iestatījumi",
+            "general": {
+                "name": "Vispārīgie",
+                "emotes": {
+                    "name": "Emocijzīmju sistēma",
+                    "note": "Iespējot BD emocijzīmju sistēmu"
+                },
+                "publicServers": {
+                    "name": "Publiskie Serveri",
+                    "note": "Rādīt publisko serveru pogu"
+                },
+                "voiceDisconnect": {
+                    "name": "Balss atvienošana",
+                    "note": "Balss atvienošana aizverot applikāciju Discord"
+                },
+                "showToasts": {
+                    "name": "Rādīt paziņojumus",
+                    "note": "Parāda nelielu paziņojumu par svarīgu informāciju"
+                },
+                "mediaKeys": {
+                    "name": "Atspējot multivides taustiņus",
+                    "note": "Neļaujauj Discord nozagt multivides atslēgas pēc videoklipa atskaņošanas"
+                }
+            },
+            "appearance": {
+                "name": "Apparance",
+                "minimalMode": {
+                    "name": "Mode Minimal",
+                    "note": "Samazināt ekrāna izmēru"
+                },
+                "twentyFourHour": {
+                    "name": "24 stundu laika zīmogs",
+                    "note": "Pārvērš 12 stundu laika zīmogu 24 stundu formātu zīmogu"
+                },
+                "coloredText": {
+                    "name": "Teksta Krāsas",
+                    "note": "Padara teksta krāsu tādu pašu kā lomu krāsu"
+                },
+                "hideGIFButton": {
+                    "name": "Paslēp GIF pogu",
+                    "note": "Paslēpj GIF atlasītāja pogu tekstlodziņā"
+                },
+                "hideGiftButton": {
+                    "name": "Paslēp davini nitro pogu",
+                    "note": "Paslēpj pogu dāvini nitro tekstlodziņā"
+                }
+            },
+            "window": {
+                "removeMinimumSize": {
+                    "name": "Noņemt minimālo izmērue",
+                    "note": "Noņemj no Discord piespiedu minimālo loga izmēru, kas ir 940x500"
+                },
+                "name": "Preferenču logs",
+                "transparency": {
+                    "name": "Iespējot caurspidību",
+                    "note": "Ļauj galvenajam logam būt caurspīdīgam. (nepieciešama restartēšana)"
+                },
+                "frame": {
+                    "name": "Logu rāmis",
+                    "note": "Galvenajam logam pievieno vietējā os loga rāmi"
+                }
+            },
+            "addons": {
+                "name": "Papildfunkciju pārvaldnieks",
+                "addonErrors": {
+                    "name": "Rādīt paplašinātas kļūdas",
+                    "note": "Parāda rāmi ar spraudņa / motīva kļūdām"
+                },
+                "autoReload": {
+                    "name": "Automātiska pārlādēšana ",
+                    "note": "Paplašinājumu un automātisko motīvu izmaiņas, augšupielādes un izkraušanas"
+                },
+                "editAction": {
+                    "name": "Rediģēt darbību",
+                    "note": "Kur rediģēšanas laikā tiks parādīti motīvi un spraudņi",
+                    "options": {
+                        "detached": "Atdalīts logs",
+                        "system": "Sistēmas redaktors"
+                    }
+                }
+            },
+            "customcss": {
+                "name": "Pielāgojamais CSS",
+                "customcss": {
+                    "name": "Pielāgojamais CSS",
+                    "note": "Aktivizē pielāgoto CSS cilni"
+                },
+                "liveUpdate": {
+                    "name": "Tiešā atjaunināšana",
+                    "note": "Rakstot, atjaunina CSS"
+                },
+                "startDetached": {
+                    "name": "Sākums atdalīts",
+                    "note": "Noklikšķinot uz cilnes Pielāgojamais CSS, redaktors tiek atvērts atsevišķā logā."
+                },
+                "nativeOpen": {
+                    "name": "Atvērt vietējā redaktorā",
+                    "note": "Noklikšķinot uz pielāgojamā CSS, cilne atvērs jūsu pielāgojamo CSS vietējā redaktorā"
+                },
+                "openAction": {
+                    "name": "Izdevēja atrašanās vieta",
+                    "note": "Kur pielāgojamam CSS vajadzētu atvērt pēc noklusējuma",
+                    "options": {
+                        "settings": "Iestatījumi",
+                        "detached": "Atvienots",
+                        "system": "Redaktora Sistēma"
+                    }
+                }
+            },
+            "developer": {
+                "name": "Izstrādātāja iestatījumi",
+                "debuggerHotkey": {
+                    "name": "Atkļūdotāja īsinājumtaustiņi",
+                    "note": "Ļauj aktivizēt atkļūdotāju, nospiežot F8"
+                },
+                "reactDevTools": {
+                    "name": "React izstrādātāju rīki",
+                    "note": "Ievadiet vietējo react izstrādātāju rīku instalāciju Discord"
+                },
+                "inspectElement": {
+                    "name": "Ieskatīt elementu poga",
+                    "note": "Aktivizējiet elementu inspektora īsinājumtaustiņu (ctrl + shift + c), kas ir kopīgs lielākajai daļai pārlūkprogrammu"
+                },
+                "devToolsWarning": {
+                    "name": "Apturēt brīdinājumu rīku izstrādi",
+                    "note": "Neļauj Discord izdrukāt ziņojumu \\\ "Hold Up \\\"""
+                },
+                "debugLogs": {
+                    "name": "Atkļūdošanas žurnāli",
+                    "note": "Pārsūtiet visu konsolē esošo failu debug.log, kas atrodas mapē BetterDiscord"
+                }
+            }
+        },
+        "emotes": {
+            "name": "Emocijzīmes",
+            "general": {
+                "name": "Vispārīgie",
+                "download": {
+                    "name": "Lejupielādēt emocijzīmes",
+                    "note": "Lejupielādē emocijzīmes pat tad, ja tās vairs nav atjauninātas"
+                },
+                "emoteMenu": {
+                    "name": "Emocijzīmju iestatijumi",
+                    "note": "Rādīt Twitch / Favorite Emojis emocijzīmju izvēlni"
+                },
+                "hideEmojiMenu": {
+                    "name": "Paslēpt Emocijzīmju izvēlni",
+                    "note": "Paslēpj emocijzīmju izvēlni Discord, kad tiek izmantota emocijzīmju izvēlne"
+                },
+                "autoCaps": {
+                    "name": "Emociju automātiskā lielo burtu lietojums",
+                    "note": "Emociju komandu automātiska lielo burtu lietošana"
+                },
+                "modifiers": {
+                    "name": "Rādīt modifikācijas emocijzīmes",
+                    "note": "Aktivizē emocijzīmju modifikācijas (apvērst, griezties, pulsēt, griezties 2, griezties 3, 1 spraudīt, 2 reizes, 3 reizes, tr, bl, br, kratīt, kratīt2, kratīt3, atlocīt)"
+                },
+                "animateOnHover": {
+                    "name": "Pārlidojuma animācija",
+                    "note": "Animējiet emocijzīmju pārveidotājus tikai, virzot kursoru"
+                }
+            },
+            "categories": {
+                "name": "Kategorijas",
+                "twitchglobal": {
+                    "name": "Twitch Globālāszīmes",
+                    "note": "Skatīt globālās Twitch emocijzīmes"
+                },
+                "twitchsubscriber": {
+                    "name": "Twitch sekotājs",
+                    "note": "Skatīt Twitch sekotāju emocijzīmes"
+                },
+                "frankerfacez": {
+                    "name": "FrankerFaceZ",
+                    "note": "Rāda FFZ emocijzīmes"
+                },
+                "bttv": {
+                    "name": "BetterTTV",
+                    "note": "Rāda BTTV emocijzīmes"
+                }
+            }
+        }
+    },
+    "Addons": {
+        "title": "{{name}} v{{version}} de {{author}}",
+        "byline": "pēc {{author}}",
+        "openFolder": "Atvērt folderi {{type}}",
+        "reload": "Pārlādēt",
+        "addonSettings": "Spraudņu iestatijumi",
+        "website": "mājaslapa",
+        "source": "Avots",
+        "invite": "Atbalsta serveris",
+        "donate": "Ziedo",
+        "patreon": "Patreon",
+        "name": "Nosaukums",
+        "author": "Autors",
+        "version": "Versija",
+        "added": "Pievienots",
+        "modified": "Modificēts",
+        "search": "Meklēt {{type}}",
+        "editAddon": "Rediģēt Papildinājumu",
+        "deleteAddon": "Izdzēst Papildinājumu",
+        "confirmDelete": "Vai tiešām vēlaties dzēst? {{name}}?",
+        "confirmationText": "Jūs neesat saglabājis izmaiņas {{name}}. Aizverot šo logu, šīs izmaiņas tiks zaudētas.",
+        "enabled": "{{name}} ir aktivizēts.",
+        "disabled": "{{name}} ir deaktivizēts.",
+        "couldNotEnable": "{{name}} nevar aktivizēt.",
+        "couldNotDisable": "{{name}} nevarēja deaktivizēt.",
+        "couldNotStart": "{{name}} nevarēja sākt.",
+        "couldNotStop": "{{name}} nevarēja apturēt.",
+        "settingsError": "Nevar atvērt iestatījumus {{name}}",
+        "methodError": "{{method}} nevarēja atgriezt.",
+        "unknownAuthor": "Nezināms autors",
+        "noDescription": "Nav apraksta",
+        "alreadyExists": "Jau ir {{type}} ar nosaukumu {{name}}",
+        "alreadWatching": "Jau skatos uz paplašinājumiem.",
+        "metaError": "META nevarēja analizēt.",
+        "missingNameData": "Vārdam trūkst vārdu datu.",
+        "metaNotFound": "METAnon dati nav atrasti.",
+        "compileError": "Nevar apkopot.",
+        "wasUnloaded": "{{name}} ir izkrauts.",
+        "blankSlateHeader": "You don't have any ",
+        "blankSlateMessage": ""
+    },
+    "CustomCSS": {
+        "confirmationText": "Jūsu pielāgotajā CSS ir nesaglabātas izmaiņas. Aizverot šo logu, šīs izmaiņas tiks zaudētas.",
+        "update": "Atjaunināt",
+        "save": "Saglabāt",
+        "openNative": "Atveriet sistēmas redaktorā",
+        "openDetached": "Atveriet atdalītā logā",
+        "settings": "Iestatijumi",
+        "editorTitle": "Pielāgots CSS redaktors"
+    },
+    "Emotes": {
+        "loading": "Emociju ielāde fonā netiek atkārtoti ielādēta.",
+        "loaded": "Visas emocijzīmes ir veiksmīgi ielādētas.",
+        "clearEmotes": "Notīrīt emocijzīmes datus",
+        "favoriteAction": "Patīk!",
+        "downloadFailed": "Lejupielāde neizdevās",
+        "failureMessage": "BetterDiscord neizdevās lejupielādēt emocijas, lūdzu, pārbaudiet interneta savienojumu un meiģiniet vēlreiz."
+    },
+    "PublicServers": {
+        "button": "public",
+        "join": "Pievienojieties",
+        "joining": "Pievienojas",
+        "joined": "Pievienojies",
+        "loading": "Lādē",
+        "loadMore": "Vēl lādē",
+        "notConnected": "Nav savienots ar DiscordServers.com!",
+        "connectionRequired": "Lai pievienotos serveriem, jums ir jāpievieno savs konts.",
+        "connectionError": "Savienojuma kļūda",
+        "connectionErrorMessage": "Piesakoties vietnē Discord Servers.com, radās kļūda, iespējams, viņu vietne / API nedarbojas. Lūdzu, meiģiniet vēlreiz vēlāk.",
+        "pagination": "Page {{page}} no {{count}}",
+        "search": "Meklēt",
+        "connect": "Savienoties",
+        "reconnect": "Atkārtoti izveidojiet savienojumu",
+        "categories": "Kategorijas",
+        "keywords": "Atslēgvārdi",
+        "connection": "Ielogojies Kā: {{username}}#{{discriminator}}",
+        "results": "Rādīt {{start}} - {{end}}. No {{total}} rezultātiem kategorijā {{category}}",
+        "query": "priekš {{query}}"
+    },
+    "Modals": {
+        "confirmAction": "Vai tu esi pārliecināts?",
+        "okay": "Okay",
+        "done": "Izdarīts",
+        "cancel": "Atcelt",
+        "nevermind": "Vienalga",
+        "close": "Aizvērt",
+        "name": "Vārds",
+        "message": "Ziņa",
+        "error": "Kļūda",
+        "addonErrors": "Spraudņu kļūda",
+        "restartRequired": "Nepieciešama restartēšana",
+        "restartNow": "Restartēt tagad",
+        "restartLater": "Restartēt vēlāk",
+        "additionalInfo": "Papildus informācija",
+        "restartPrompt": "Lai Discord stātos spēkā, tas ir jārestartē. Vai vēlaties to restartēt tūlīt?"
+    },
+    "ReactDevTools": {
+        "notFound": "Paplašinājums nav atrasts",
+        "notFoundDetails": "Datorā nevar atrast paplašinājumu React Developer Tools. Lūdzu, instalējiet paplašinājumu vietējā Chrome instalācijā."
+    },
+    "Sorting": {
+        "sortBy": "Kārtot pēc",
+        "order": "Sakārtot",
+        "ascending": "Augošā",
+        "descending": "Dilstošā"
+    },
+    "Startup": {
+        "notSupported": "Neatbalstīts",
+        "incompatibleApp": "BetterDiscord nedarbojas ar {{app}}. Lūdzu, atinstalējiet vienu no tiem.",
+        "updateNow": "Atjaunināt tagad",
+        "maybeLater": "Varbūt vēlāk",
+        "updateAvailable": "Pieejams atjauninājums",
+        "updateInfo": "Ir pieejams BetterDiscord inžektora ({{version}}) atjauninājums. \ N \ nJūs varat atjaunināt un restartēt tūlīt vai vēlāk.",
+        "updateFailed": "Atjauninājums neizdevies",
+        "manualUpdate": "Automātiska atjaunināšana nav iespējama, lūdzu, lejupielādējiet instalētāju un atkārtoti instalējiet to. \ N \ n [Lejupielādēt instalētāju](https://github.com/rauenzi/BetterDiscordApp/releases/latest)",
+        "jqueryFailed": "Neizdevās ielādēt jQuery",
+        "jqueryFailedDetails": "jQuery nevarēja ielādēt, un vairāki paplašinājumi var nedarboties pareizi. Turpiniet uz savu risku."
+    },
+    "WindowPrefs": {
+        "enabledInfo": "Lai šī opcija darbotos pareizi, ir nepieciešama caurspīdīga tēma. Operētājsistēmā Windows tas var izjaukt aero stila traucējumus un maksimizēt .. \ n \ nLai stātos spēkā, Discord ir jārestartē. Vai vēlaties restartēt tūlīt?",
+        "disabledInfo": "Lai Discord stātos spēkā, tas ir jārestartē. Vai vēlaties restartēt tūlīt?"
+    }
+}
